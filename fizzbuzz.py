@@ -1,12 +1,12 @@
-for x in range(1, 101):
+for val in range(1, 101):
     output = ''
-    if x % 3 == 0:
-        if x % 5 == 0:
+    if val % 3 == 0:
+        if val % 5 == 0:
             output = 'FizzBuzz'
         else:
             output = 'Fizz'
-    elif x % 5 == 0:
+    elif val % 5 == 0:
         output = 'Buzz'
     else:
-        output = x
+        output = val
     print(output)
